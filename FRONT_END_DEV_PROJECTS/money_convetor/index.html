@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MONEY_CONVERTER</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MONEY_CONVERTER</h1>
+            <table>
+                <tr>
+                    <td> <input type="text" id="ivalue" ></td>
+                    <td><input type="text" id="ovalue" ></td>
+                </tr>
+                <tr>
+                    <td>
+                        <select id="s1">
+                            <option value="USD">USD</option>
+                            <option value="INR">INR</option>
+                            <option value="JPY">JPY</option>
+                            <option value="AUD">AUD</option>
+                            <option value="CAD">CAD</option>
+                            <option value="RUB">RUB</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select id="s2">
+                            <option value="USD">USD</option>
+                            <option value="INR">INR</option>
+                            <option value="JPY">JPY</option>
+                            <option value="AUD">AUD</option>
+                            <option value="CAD">CAD</option>
+                            <option value="RUB">RUB</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button onclick="change()">convert</button></td>
+                    <td><button onclick="clsr()">clear</button></td>
+                </tr>
+            </table>    
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+*
+{
+    margin: auto;
+    padding: auto;
+}
+body
+{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+button
+{
+    width: 550px;
+    height: 75px;
+    border-radius: 50px;
+    border: none;
+    font-size: 60px;
+}
+h1
+{
+    font-size: 60px;
+}
