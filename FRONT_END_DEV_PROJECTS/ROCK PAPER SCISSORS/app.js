@@ -12,11 +12,11 @@ function rock()
    }
    else if(ai_gen==1)
    {
-    res.innerHTML="YOU WIN"
+    res.innerHTML="YOU LOST"
    }
    else
    {
-    res.innerHTML="YOU LOST"
+    res.innerHTML="YOU WIN"
    }
 }
 function paper()
